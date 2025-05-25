@@ -1,0 +1,127 @@
+/* PendingArtisans.css */
+
+.pending-artisans-container {
+  padding: 60px 40px;
+  max-width: 900px;
+  margin: 0 auto;
+  font-family: 'Segoe UI', Tahoma, Geneva, Verdana, sans-serif;
+  color: #333;
+}
+
+.pending-artisans-container h2 {
+  font-size: 2.2rem;
+  font-weight: 700;
+  margin-bottom: 40px;
+  color: #2c3e50;
+  text-align: center;
+}
+
+.artisans-table {
+  width: 100%;
+  border-collapse: collapse;
+  margin-top: 20px;
+  box-shadow: 0 2px 8px rgb(0 0 0 / 0.1);
+}
+
+.artisans-table th,
+.artisans-table td {
+  border: 1px solid #ddd;
+  padding: 12px 15px;
+  text-align: left;
+}
+
+.artisans-table th {
+  background-color: #f4f4f4;
+  color: black;
+  font-weight: 600;
+}
+
+.artisans-table tbody tr:hover {
+  background-color: #f1f7fc;
+}
+
+.action-button {
+  margin-right: 10px;
+  padding: 6px 14px;
+  border: none;
+  border-radius: 4px;
+  cursor: pointer;
+  font-weight: 600;
+  transition: background-color 0.3s ease;
+  user-select: none;
+}
+
+.view-button {
+  background-color: #3498db;
+  color: white;
+}
+
+.view-button:hover {
+  background-color: #217dbb;
+}
+
+.approve-button {
+  background-color: #4caf50;
+  color: white;
+}
+
+.approve-button:hover {
+  background-color: #3a8a3a;
+}
+
+.reject-button {
+  background-color: #f44336;
+  color: white;
+}
+
+.reject-button:hover {
+  background-color: #ba3428;
+}
+
+.no-pending {
+  font-size: 1.2rem;
+  text-align: center;
+  color: #555;
+  margin-top: 30px;
+}
+
+/* Modal styling */
+.artisan-modal {
+  position: fixed;
+  top: 20%;
+  left: 50%;
+  transform: translateX(-50%);
+  background-color: white;
+  padding: 25px 30px;
+  border: 1px solid #333;
+  border-radius: 8px;
+  box-shadow: 0 6px 15px rgb(0 0 0 / 0.2);
+  z-index: 1000;
+  max-width: 400px;
+  width: 90%;
+}
+
+.artisan-modal h3 {
+  margin-top: 0;
+  color: #2c3e50;
+}
+
+.artisan-modal p {
+  margin: 10px 0;
+  font-size: 1rem;
+}
+
+.close-button {
+  margin-top: 20px;
+  padding: 8px 18px;
+  background-color: #555;
+  color: white;
+  border: none;
+  border-radius: 5px;
+  cursor: pointer;
+  font-weight: 600;
+}
+
+.close-button:hover {
+  background-color: #333;
+}

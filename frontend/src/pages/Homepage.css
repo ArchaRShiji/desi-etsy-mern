@@ -1,0 +1,72 @@
+.home-main {
+  background: #fffdf8;
+  min-height: 60vh;
+  padding: 0;
+  margin: 0;
+}
+
+/* Hero Section with Banner */
+.hero-banner {
+  background-image: url('../assests/banner.png'); /* Make sure this image exists in your public/images folder */
+  background-size: cover;
+  background-position: center;
+  height: 50vh;
+  margin: 100px;
+  border-radius: 20px;
+  overflow: hidden; 
+  position: relative;
+  display: flex;
+  align-items: center;
+  justify-content: center;
+}
+
+.hero-overlay {
+  background: rgba(255, 255, 2,0.4);
+  color: #2c2727;
+  text-align: center;
+  padding: 30px;
+  border-radius: 10px;
+}
+.featured-products h2 {
+  color: #d84f57;
+}
+.hero-overlay h1 {
+  font-size: 3rem;
+  margin-bottom: 5px;
+}
+
+.hero-overlay p {
+  font-size: 1.2rem;
+  margin-bottom: 20px;
+}
+
+
+/* Featured Products */
+.featured-products {
+  padding: 40px 20px;
+  background-color: #f9f9f9;
+  text-align: center;
+}
+
+.featured-products h2 {
+  font-size: 2rem;
+  margin-bottom: 25px;
+}
+
+.product-grid {
+  display: flex;
+  flex-wrap: wrap;
+  justify-content: center;
+  gap: 20px;
+}
+
+/* Responsive Design */
+@media (max-width: 768px) {
+  .hero-overlay h1 {
+    font-size: 2rem;
+  }
+
+  .hero-overlay p {
+    font-size: 1rem;
+  }
+}

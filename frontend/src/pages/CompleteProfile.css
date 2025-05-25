@@ -1,0 +1,70 @@
+.profile-complete-container {
+  max-width: 450px;
+  margin: 40px auto;
+  padding: 30px 25px;
+  background-color: #ffffff;
+  border-radius: 12px;
+  box-shadow: 0 6px 18px rgba(0, 0, 0, 0.1);
+  font-family: 'Segoe UI', Tahoma, Geneva, Verdana, sans-serif;
+}
+
+.profile-title {
+  text-align: center;
+  margin-bottom: 25px;
+  color: #333;
+  font-weight: 700;
+  font-size: 1.8rem;
+}
+
+.profile-form {
+  display: flex;
+  flex-direction: column;
+}
+
+.profile-label {
+  margin-bottom: 6px;
+  font-weight: 600;
+  color: #555;
+  margin-top: 15px;
+}
+
+.profile-input,
+.profile-select,
+.profile-textarea {
+  padding: 10px 14px;
+  border: 1.5px solid #ccc;
+  border-radius: 8px;
+  font-size: 1rem;
+  transition: border-color 0.25s ease;
+}
+
+.profile-input:focus,
+.profile-select:focus,
+.profile-textarea:focus {
+  outline: none;
+  border-color: #4a90e2;
+  box-shadow: 0 0 6px #4a90e2;
+}
+
+.profile-textarea {
+  min-height: 80px;
+  resize: vertical;
+  font-family: inherit;
+}
+
+.profile-submit-btn {
+  margin-top: 25px;
+  padding: 12px;
+  background-color: #4a90e2;
+  border: none;
+  border-radius: 10px;
+  color: white;
+  font-weight: 700;
+  font-size: 1.1rem;
+  cursor: pointer;
+  transition: background-color 0.3s ease;
+}
+
+.profile-submit-btn:hover {
+  background-color: #357ABD;
+}

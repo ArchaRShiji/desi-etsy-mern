@@ -1,0 +1,165 @@
+html, body {
+  height: 50%;
+  margin: 0;
+  padding: 0;
+}
+.artisan-products {
+  padding: 2rem;
+  max-width: 900px;
+  margin: 0 auto;
+  font-family: 'Segoe UI', Tahoma, Geneva, Verdana, sans-serif;
+  color: #333;
+}
+
+h2 {
+  margin-bottom: 1rem;
+  text-align: center;
+  color: #007bff;
+}
+
+.btn-add {
+  background-color: #007bff;
+  color: white;
+  border: none;
+  padding: 0.6rem 1.2rem;
+  border-radius: 5px;
+  cursor: pointer;
+  margin-bottom: 1rem;
+  font-weight: 600;
+  transition: background-color 0.3s ease;
+}
+.btn-add:hover {
+  background-color: #0056b3;
+}
+
+.product-table {
+  width: 100%;
+  border-collapse: collapse;
+  box-shadow: 0 4px 8px rgba(0,0,0,0.1);
+  border-radius: 8px;
+  overflow: hidden;
+}
+
+.product-table th,
+.product-table td {
+  padding: 0.75rem 1rem;
+  text-align: left;
+  border-bottom: 1px solid #ddd;
+  background: white;
+}
+
+.product-table th {
+  background-color: #007bff;
+  color: white;
+  font-weight: 600;
+}
+
+.product-table tr:hover td {
+  background-color: #f1f9ff;
+}
+
+.btn-edit, .btn-delete {
+  border: none;
+  padding: 0.3rem 0.7rem;
+  margin-right: 0.3rem;
+  border-radius: 4px;
+  cursor: pointer;
+  font-weight: 600;
+  transition: background-color 0.2s ease;
+}
+
+.btn-edit {
+  background-color: #28a745;
+  color: white;
+}
+.btn-edit:hover {
+  background-color: #1e7e34;
+}
+
+.btn-delete {
+  background-color: #dc3545;
+  color: white;
+}
+.btn-delete:hover {
+  background-color: #a71d2a;
+}
+.modal-overlay {
+  position: fixed;
+  top: 0;
+  left: 0;
+  right: 0;
+  bottom: 0;
+  background-color: rgba(0, 0, 0, 0.5);
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  z-index: 9999;
+}
+
+.modal-content {
+  background-color: white;
+  padding: 2rem;
+  border-radius: 10px;
+  width: 90%;
+  max-width: 500px;
+  box-shadow: 0 10px 30px rgba(0, 0, 0, 0.3);
+  position: absolute;
+  top: 50%;
+  left: 50%;
+  transform: translate(-50%, -50%); /* remove any unwanted shifting */
+}
+
+
+.product-form {
+  display: flex;
+  flex-direction: column;
+  gap: 0.8rem;
+}
+
+.product-form input,
+.product-form textarea {
+  padding: 0.6rem;
+  border: 1px solid #ccc;
+  border-radius: 5px;
+  font-size: 1rem;
+  resize: vertical;
+}
+
+.product-form textarea {
+  min-height: 80px;
+}
+
+.form-buttons {
+  display: flex;
+  justify-content: flex-end;
+  gap: 1rem;
+  margin-top: 1rem;
+}
+
+.product-form button[type="submit"] {
+  background-color: #007bff;
+  color: white;
+  border: none;
+  padding: 0.6rem 1.2rem;
+  border-radius: 5px;
+  cursor: pointer;
+  font-weight: 600;
+  transition: background-color 0.3s ease;
+}
+.product-form button[type="submit"]:hover {
+  background-color: #0056b3;
+}
+
+.product-form button[type="button"] {
+  background-color: #6c757d;
+  color: white;
+  border: none;
+  padding: 0.6rem 1.2rem;
+  border-radius: 5px;
+  cursor: pointer;
+  font-weight: 600;
+  transition: background-color 0.3s ease;
+}
+.product-form button[type="button"]:hover {
+  background-color: #5a6268;
+}
